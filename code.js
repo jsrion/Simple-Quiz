@@ -7,3 +7,5 @@ import questionBank from './question-bank.js'
 /*Questions and displays*/
 
 /*Counters, Submit, and score */
+
+/*Database and display*/
