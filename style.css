@@ -1,0 +1,49 @@
+header {
+    background: midnightblue;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+#taskbar {
+    margin: 2rem auto;
+    width: 40rem;
+    max-width: 90%;
+    border: 1px solid midnightblue;
+    border-radius: 10px;
+    padding: 1rem;
+    color: midnightblue;
+}
+
+#taskbar {
+    text-align: center;
+}
+
+#taskbar button{
+    font: times;
+    background: midnightblue;
+    color: white;
+    border: 0.8px solid midnightblue;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#taskbar button:focus {
+    outline: none;
+}
+
+#taskbar button:hover,
+#taskbar button:active {
+    background: rgb(23, 23, 108);
+    border-color: rgb(23, 23, 108);
+}
+
+#task-action button {
+    width: relative;
+}
+
+#task-action {
+    margin-top: 1rem;
+    text-align: center;
+}
